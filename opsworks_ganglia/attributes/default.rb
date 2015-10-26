@@ -17,7 +17,6 @@
 require 'securerandom'
 
 include_attribute 'opsworks_initial_setup::default'
-include_attribute 'apache2::apache'
 
 default[:ganglia][:datadir] = '/vol/ganglia'
 default[:ganglia][:original_datadir] = '/var/lib/ganglia'
